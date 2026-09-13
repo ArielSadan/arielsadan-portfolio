@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio of Ariel Sadan, a Computer Science student at Georgia Tech.">
+  <title>Ariel Sadan | Computer Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">
+          AS
+        </span>
+        <span>
+          Ariel Sadan
+        </span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+        <span class="visually-hidden">
+          Open navigation
+        </span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="active" href="index.html">
+          Home
+        </a>
+        <a href="projects.html">
+          Projects
+        </a>
+        <a href="#about">
+          About
+        </a>
+        <a href="#contact">
+          Contact
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero personal-hero">
+      <div class="hero-glow hero-glow-one">
+      </div>
+      <div class="hero-glow hero-glow-two">
+      </div>
+      <div class="container personal-hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">
+            Georgia Tech · Computer Science
+          </p>
+          <h1>Hi, I’m Ariel.</h1>
+          <p class="hero-lead">I’m a Computer Science student interested in systems, cybersecurity,
+            and their interactions. I like understanding how technology works beneath the surface and
+            am currently teaching myself about capture the flags (ctfs) and ethical hacking.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="projects.html">
+              View my projects
+            </a>
+            <a class="button button-secondary" href="#about">
+              More about me
+            </a>
+          </div>
+        </div>
+        <div class="identity-card reveal">
+          <img class="profile-photo" src="assets/profile.jpeg" alt="Portrait of Ariel Sadan">
+          <div class="identity-details">
+            <span>Currently</span>
+            <strong>2nd Year Computer Science student</strong>
+            <p>Georgia Institute of Technology</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section intro-section" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About me</p>
+          <h2>Curious about systems. Focused on solutions.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>My studies have taken me from object oriented programming to data structures, low-level computer and
+            organizations' policy development.
+            I’m especially drawn to the intersection of systems architecture and security: understanding
+            how a system is built, where it can fail, and how to make it more dependable.</p>
+          <p>I also enjoy helping others work through technical ideas. Explaining a difficult concept clearly often
+            helps me understand it just as much as it helps others!</p>
+        </div>
+      </div>
+    </section>
+    <section class="section focus-section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Areas of interest</p>
+          <h2>What I’m exploring</h2>
+          <p>A portfolio that can grow with my coursework, technical interests, and experience.</p>
+        </div>
+        <div class="interest-grid">
+          <article class="interest-card reveal"><span>01</span>
+            <h3>Systems & Architecture</h3>
+            <p>Computer organization, assembly, embedded systems, and the relationship between hardware and software.
+            </p>
+          </article>
+          <article class="interest-card reveal"><span>02</span>
+            <h3>Cybersecurity</h3>
+            <p>Secure design, threat awareness, and protecting the systems people and organizations depend on.</p>
+          </article>
+          <article class="interest-card reveal"><span>03</span>
+            <h3>Cybersecurity Policy</h3>
+            <p>Building rules and guidelines to streamline and ease cybersecurity, built by people for people.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section featured-section">
+      <div class="container featured-project reveal">
+        <div class="featured-copy">
+          <p class="eyebrow">Featured project</p>
+          <h2>GT Movies Store</h2>
+          <p>A full-stack Django shopping experience that supports movie discovery, accounts, cart management, checkout,
+            and order history.</p>
+          <div class="tech-list dark"><span>Python</span><span>Django</span><span>Bootstrap</span><span>SQLite</span>
+          </div><a class="text-link" href="movies-store.html">Read the project case study →</a>
+        </div>
+        <img class="home-photo" src="assets/moviesstore_home.png" alt="Movies Store home page">
+      </div>
+      <div class="container all-projects-link"><a class="button button-dark" href="projects.html">See all projects</a>
+      </div>
+    </section>
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect.</h2>
+        </div>
+        <div class="contact-links"><a href="mailto:asadan3@gatech.edu">asadan3@gatech.edu</a><a
+            href="https://www.linkedin.com/in/ariel-sadan-210b5a373/">LinkedIn
+            Ariel Sadan</a><a href="https://github.com/ArielSadan">GitHub ArielSadan</a></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-content">
+      <div><span class="brand-mark small" aria-hidden="true">AS</span><strong>Ariel Sadan</strong></div>
+      <p>Computer Science Portfolio · <span id="year"></span></p><a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

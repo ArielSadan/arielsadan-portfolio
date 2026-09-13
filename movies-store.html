@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GT Movies Store project case study by Ariel Sadan.">
+    <title>GT Movies Store | Ariel Sadan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body><a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+        <nav class="nav container" aria-label="Main navigation"><a class="brand" href="index.html"><span
+                    class="brand-mark">AS</span><span>Ariel Sadan</span></a><button class="menu-button" type="button"
+                aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span><span
+                    class="visually-hidden">Open navigation</span></button>
+            <div class="nav-links" id="nav-links"><a href="index.html">Home</a><a class="active"
+                    href="projects.html">Projects</a><a href="index.html#about">About</a><a
+                    href="index.html#contact">Contact</a></div>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="hero project-detail-hero">
+            <div class="container project-title reveal"><a class="back-link" href="projects.html">← All projects</a>
+                <p class="eyebrow">Django web application</p>
+                <h1>GT Movies Store</h1>
+                <p class="hero-lead">A full-stack movie shopping experience built to make discovery, account management,
+                    checkout, and order review feel straightforward.</p>
+                <ul class="tech-list">
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Bootstrap</li>
+                    <li>SQLite</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container case-intro">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Project overview</p>
+                    <h2>From browsing to checkout</h2>
+                </div>
+                <div class="about-copy reveal">
+                    <p>GT Movies Store is an e-commerce web application where visitors can browse and search a movie
+                        catalog. Registered users can manage a shopping cart, complete an order, and return to review
+                        their order history.</p>
+                    <p>The interface uses consistent navigation and responsive layouts so that the principal user flows
+                        remain clear across desktop and mobile screens.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section project">
+            <div class="container">
+                <div class="section-heading centered reveal">
+                    <p class="eyebrow">Features & user stories</p>
+                    <h2>Designed around user goals</h2>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card reveal"><span class="feature-number">01</span>
+                        <div class="feature-icon">⌕</div>
+                        <h3>Discover movies</h3>
+                        <p>Visitors can browse the catalog and search for a title without navigating through unnecessary
+                            pages.</p>
+                        <p class="story"><strong>User story:</strong> As a user, I want to be able to search movies per
+                            title so I can make my selections.</p>
+                    </article>
+                    <article class="feature-card reveal"><span class="feature-number">02</span>
+                        <div class="feature-icon">＋</div>
+                        <h3>Build a cart</h3>
+                        <p>Movie detail pages provide useful information and a direct add-to-cart action, while the cart
+                            supports review before purchase.</p>
+                        <p class="story"><strong>User story:</strong> As a user, I want to be able to add one or more
+                            items of a movie to my shopping cart
+                            so I can purchase them in the future.</p>
+                    </article>
+                    <article class="feature-card reveal"><span class="feature-number">03</span>
+                        <div class="feature-icon">○</div>
+                        <h3>Manage an account</h3>
+                        <p>Registration, login, and logout flows provide access to protected, account-specific features.
+                        </p>
+                        <p class="story"><strong>User story:</strong> As a user, I want to log in so that I can access
+                            the Movies Store.</p>
+                    </article>
+                    <article class="feature-card reveal"><span class="feature-number">04</span>
+                        <div class="feature-icon">✓</div>
+                        <h3>Review orders</h3>
+                        <p>Authenticated users can complete a purchase and revisit their order history after the session
+                            ends.</p>
+                        <p class="story"><strong>User story:</strong> As a user, I want to see a list of my orders so I
+                            can
+                            track what I have purchased and my expenses.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section gallery-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Application screens</p>
+                    <h2>See how the experience connects</h2>
+                </div>
+                <div class="screen-grid large">
+                    <figure class="screen-placeholder light">
+                        <img class="catalog-photo" src="assets/moviesstore_catalog.png" alt="Movies Store Catalog">
+                        <figcaption>Catalog browsing and search</figcaption>
+                    </figure>
+                    <figure class="screen-placeholder light">
+                        <img class="detail-photo" src="assets/moviesstore_detail.png" alt="Movies Detailed Movie">
+                        <figcaption>Movie information and cart action</figcaption>
+                    </figure>
+                    <figure class="screen-placeholder light">
+                        <img class="cart-photo" src="assets/moviesstore_cart.png" alt="Movies Store Cart">
+                        <figcaption>Cart review</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="section process">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Development process</p>
+                    <h2>How the project came together</h2>
+                </div>
+                <ol class="timeline">
+                    <li class="reveal"><span>01</span>
+                        <div>
+                            <h3>Understand the user stories</h3>
+                            <p>I translated each requirement into a user action and expected result, then identified the
+                                views, templates, models, and routes needed to support it.</p>
+                        </div>
+                    </li>
+                    <li class="reveal"><span>02</span>
+                        <div>
+                            <h3>Build in small vertical slices</h3>
+                            <p>I implemented one complete flow at a time through the textbook so each feature could be
+                                tested in the browser
+                                before moving on.</p>
+                        </div>
+                    </li>
+                    <li class="reveal"><span>03</span>
+                        <div>
+                            <h3>Resolve questions through evidence</h3>
+                            <p>I checked documentation, inspected error messages, and reduced problems to small
+                                reproducible cases. Exact term matching, for example, was essential when debugging
+                                the navigation bar.</p>
+                        </div>
+                    </li>
+                </ol>
+                <div class="reflection reveal">
+                    <div>
+                        <p class="eyebrow">Reflection</p>
+                        <h3>What I learned</h3>
+                    </div>
+                    <p>The project strengthened my understanding of Django’s model–view–template structure and showed
+                        how small implementation details affect the full user experience. Incremental testing made
+                        debugging faster and integration less risky.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section demo">
+            <div class="container demo-grid">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Video demonstration</p>
+                    <h2>See the app in action</h2>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rc2-d3krUP4?si=VMYjqzkI6EuHv7Sv"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-content">
+            <div><span class="brand-mark small">AS</span><strong>Ariel Sadan</strong></div>
+            <p>Computer Science Portfolio · <span id="year"></span></p><a href="#top">Back to top ↑</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
